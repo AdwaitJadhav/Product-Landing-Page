@@ -3,7 +3,6 @@
   text-align: center;
  
 }
-@rgb(216, 209, 209);
 body{
   background-color:rgb(250, 250, 250);
   color:black;
@@ -11,7 +10,7 @@ body{
 }
 
 #nav-bar{
-  z-index: 1;
+  z-index:1;
   display:flex;
   overflow: hidden;
   width: 100%;
@@ -126,5 +125,16 @@ h4{
     width:100%;
   }
 }
- 
+
+@media screen and (max-width:580px) {
+  video{
+    width: 100%;
+    height: auto;
+  }
+  .nav-link{
+    float: left;
+    font-size: normal;
+    padding-left: 0px;
+  }
+}
 
